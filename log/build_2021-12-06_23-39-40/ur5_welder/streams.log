@@ -1,0 +1,12 @@
+[0.048s] Invoking command in '/home/taaniel/weld_ws/build/ur5_welder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4
+[0.152s] [35m[1mScanning dependencies of target test_node[0m
+[0.273s] [ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/moveit_testing.cpp.o[0m
+[7.908s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In member function ‘[01m[Kvoid MoveItCppDemo::run()[m[K’:
+[7.909s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object[m[K’ was not declared in this scope; did you mean ‘[01m[Kcollision_detection[m[K’?
+[7.909s]    78 |     [01;31m[Kcollision_object[m[K.primitives.push_back(box);
+[7.909s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.909s]       |     [32m[Kcollision_detection[m[K
+[12.880s] make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/moveit_testing.cpp.o] Error 1
+[12.881s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/test_node.dir/all] Error 2
+[12.882s] make: *** [Makefile:141: all] Error 2
+[12.884s] Invoked command in '/home/taaniel/weld_ws/build/ur5_welder' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4

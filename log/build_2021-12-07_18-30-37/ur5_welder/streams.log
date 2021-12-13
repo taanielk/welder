@@ -1,0 +1,49 @@
+[0.053s] Invoking command in '/home/taaniel/weld_ws/build/ur5_welder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4
+[0.165s] [35m[1mScanning dependencies of target test_node[0m
+[0.326s] [ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/moveit_testing.cpp.o[0m
+[8.263s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.263s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:34:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [15])[m[K’
+[8.263s]    34 |    moveit::planning_interface::MoveGroupInterface move_group("ur_manipulator"[01;31m[K)[m[K;
+[8.263s]       |                                                                              [01;31m[K^[m[K
+[8.263s] In file included from [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:6[m[K:
+[8.263s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:180:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[8.264s]   180 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[8.264s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.264s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:180:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [15][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+[8.264s]   180 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+[8.264s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.264s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:166:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.264s]   166 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[8.265s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.265s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:166:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.265s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:155:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.265s]   155 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[8.265s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.265s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:155:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.268s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:35:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msqs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+[8.268s]    35 |    std::vector<[01;31m[Kgeometry_msqs[m[K::Pose> waypoints;
+[8.268s]       |                [01;31m[K^~~~~~~~~~~~~[m[K
+[8.269s]       |                [32m[Kgeometry_msgs[m[K
+[8.269s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:35:35:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.269s]    35 |    std::vector<geometry_msqs::Pose[01;31m[K>[m[K waypoints;
+[8.269s]       |                                   [01;31m[K^[m[K
+[8.269s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:35:35:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[8.270s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:41:19:[m[K [01;31m[Kerror: [m[K‘[01m[KPose_next_waypoint[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’
+[8.270s]    41 |    geometry_msgs::[01;31m[KPose_next_waypoint[m[K = current_pose.pose;
+[8.270s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.277s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:45:4:[m[K [01;31m[Kerror: [m[K‘[01m[Knext_waypoint[m[K’ was not declared in this scope
+[8.278s]    45 |    [01;31m[Knext_waypoint[m[K.position.z -= 0.3;
+[8.278s]       |    [01;31m[K^~~~~~~~~~~~~[m[K
+[8.278s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:47:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kwaypoints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[8.278s]    47 |    waypoints.[01;31m[Kpush_back[m[K(next_waypoint);
+[8.278s]       |              [01;31m[K^~~~~~~~~[m[K
+[8.278s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:50:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kwaypoints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[8.278s]    50 |    waypoints.[01;31m[Kpush_back[m[K(next_waypoint);
+[8.278s]       |              [01;31m[K^~~~~~~~~[m[K
+[8.278s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:53:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kwaypoints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[8.278s]    53 |    waypoints.[01;31m[Kpush_back[m[K(next_waypoint);
+[8.278s]       |              [01;31m[K^~~~~~~~~[m[K
+[12.899s] make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/moveit_testing.cpp.o] Error 1
+[12.900s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/test_node.dir/all] Error 2
+[12.900s] make: *** [Makefile:141: all] Error 2
+[12.902s] Invoked command in '/home/taaniel/weld_ws/build/ur5_welder' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4

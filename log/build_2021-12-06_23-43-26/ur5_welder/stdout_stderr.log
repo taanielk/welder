@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target test_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/moveit_testing.cpp.o[0m
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   51 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:94:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   94 |   MoveItCppDemo demo([01;31m[Knode[m[K);
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In lambda function:
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:99:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MoveItCppDemo::run()[m[K’ is private within this context
+   99 |     demo.run([01;31m[K)[m[K;
+      |              [01;31m[K^[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:54:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+   54 |   void [01;36m[Krun[m[K()
+      |        [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/moveit_testing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/test_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

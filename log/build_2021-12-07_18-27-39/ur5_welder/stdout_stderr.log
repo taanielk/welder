@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target test_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/moveit_testing.cpp.o[0m
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:34:32:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ is not a member of ‘[01m[Kmoveit::planning_interface[m[K’
+   34 |    moveit::planning_interface::[01;31m[KMoveGroupInterface[m[K move_group("ur_manipulator");
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:36:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+   36 |    std::[01;31m[Kv[m[Kector<geometry_msqs::Pose> waypoints;
+      |         [01;31m[K^[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:40:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   40 |    current_pose = [01;31m[Kmove_group[m[K.getCurrentPose();
+      |                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:42:19:[m[K [01;31m[Kerror: [m[K‘[01m[KPose_next_waypoint[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’
+   42 |    geometry_msgs::[01;31m[KPose_next_waypoint[m[K = current_pose.pose;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:46:4:[m[K [01;31m[Kerror: [m[K‘[01m[Knext_waypoint[m[K’ was not declared in this scope
+   46 |    [01;31m[Knext_waypoint[m[K.position.z -= 0.3;
+      |    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:48:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints[m[K’ was not declared in this scope
+   48 |    [01;31m[Kwaypoints[m[K.push_back(next_waypoint);
+      |    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:56:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ has not been declared
+   56 |    moveit::planning_interface::[01;31m[KMoveGroupInterface[m[K::Plan my_plan;
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:36:4:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kstd[m[K’ defined but not used [[01;35m[K-Wunused-label[m[K]
+   36 |    [01;35m[Kstd[m[K::vector<geometry_msqs::Pose> waypoints;
+      |    [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/moveit_testing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/test_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

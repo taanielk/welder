@@ -1,0 +1,78 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:40[m[K:
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:13:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   51 | RCLCPP_INFO([01;31m[KLOGGER[m[K, "Initialize node");
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 | [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Initialize node");
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 | [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Initialize node");
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 | [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Initialize node");
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:58:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmmoveit[m[K’ has not been declared
+   58 | [01;31m[Kmmoveit[m[K::planning_interface::MoveGroupInterface move_group("ur_manipulator");
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:60:6:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+   60 | std: [01;31m[K:[m[Kvector<geometry_msqs::Pose> waypoints;
+      |      [01;31m[K^[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:63:16:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’?
+   63 | geometry_msgs::[01;31m[KPoseStamped[m[K current_pose;
+      |                [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_msgs/include/moveit_msgs/msg/detail/visibility_constraint__struct.hpp:20[m[K,
+                 from [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_msgs/include/moveit_msgs/msg/detail/constraints__struct.hpp:25[m[K,
+                 from [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_msgs/include/moveit_msgs/msg/constraints.hpp:7[m[K,
+                 from [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:46[m[K,
+                 from [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_core/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:43[m[K,
+                 from [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/moveit_cpp/moveit_cpp.h:43[m[K,
+                 from [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:41[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ declared here
+  134 | using [01;36m[KPoseStamped[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:64:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose[m[K’ was not declared in this scope
+   64 | [01;31m[Kcurrent_pose[m[K = move_group.getCurrentPose();
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:64:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   64 | current_pose = [01;31m[Kmove_group[m[K.getCurrentPose();
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:66:16:[m[K [01;31m[Kerror: [m[K‘[01m[KPose_next_waypoint[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’
+   66 | geometry_msgs::[01;31m[KPose_next_waypoint[m[K = current_pose.pose;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:70:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knext_waypoint[m[K’ was not declared in this scope
+   70 | [01;31m[Knext_waypoint[m[K.position.z -= 0.3;
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:72:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints[m[K’ was not declared in this scope
+   72 | [01;31m[Kwaypoints[m[K.push_back(next_waypoint);
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:80:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ has not been declared
+   80 | moveit::planning_interface::[01;31m[KMoveGroupInterface[m[K::Plan my_plan;
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:85:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmobe_group[m[K’ was not declared in this scope
+   85 | double fraction = [01;31m[Kmobe_group[m[K.computeCartesianPath(waypoints, eef_step, jump_threshold, my_plan.trajectory);
+      |                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:85:88:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan[m[K’ was not declared in this scope
+   85 | up.computeCartesianPath(waypoints, eef_step, jump_threshold, [01;31m[Kmy_plan[m[K.trajectory);
+      |                                                              [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:85:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfraction[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   85 | double [01;35m[Kfraction[m[K = mobe_group.computeCartesianPath(waypoints, eef_step, jump_threshold, my_plan.trajectory);
+      |        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:60:1:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kstd[m[K’ defined but not used [[01;35m[K-Wunused-label[m[K]
+   60 | [01;35m[Kstd[m[K: :vector<geometry_msqs::Pose> waypoints;
+      | [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/moveit_testing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/test_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

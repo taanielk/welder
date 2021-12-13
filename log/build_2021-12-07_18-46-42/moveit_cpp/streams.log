@@ -1,0 +1,45 @@
+[0.104s] Invoking command in '/home/taaniel/weld_ws/build/moveit_cpp': /usr/bin/cmake /home/taaniel/weld_ws/src/moveit_cpp -DCMAKE_INSTALL_PREFIX=/home/taaniel/weld_ws/install/moveit_cpp
+[0.140s] CMake Warning (dev) in CMakeLists.txt:
+[0.140s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.140s]   contain a literal, direct call to the project() command.  Add a line of
+[0.140s]   code such as
+[0.141s] 
+[0.141s]     project(ProjectName)
+[0.141s] 
+[0.141s]   near the top of the file, but after cmake_minimum_required().
+[0.141s] 
+[0.141s]   CMake is pretending there is a "project(Project)" command on the first
+[0.142s]   line.
+[0.142s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.142s] 
+[0.409s] -- The C compiler identification is GNU 9.3.0
+[0.615s] -- The CXX compiler identification is GNU 9.3.0
+[0.633s] -- Check for working C compiler: /usr/bin/cc
+[0.825s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.839s] -- Detecting C compiler ABI info
+[0.989s] -- Detecting C compiler ABI info - done
+[1.010s] -- Detecting C compile features
+[1.011s] -- Detecting C compile features - done
+[1.017s] -- Check for working CXX compiler: /usr/bin/c++
+[1.163s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.166s] -- Detecting CXX compiler ABI info
+[1.313s] -- Detecting CXX compiler ABI info - done
+[1.340s] -- Detecting CXX compile features
+[1.341s] -- Detecting CXX compile features - done
+[1.342s] CMake Error at CMakeLists.txt:3 (ament_target_dependencies):
+[1.343s]   Unknown CMake command "ament_target_dependencies".
+[1.343s] 
+[1.343s] 
+[1.343s] CMake Warning (dev) in CMakeLists.txt:
+[1.343s]   No cmake_minimum_required command is present.  A line of code such as
+[1.343s] 
+[1.343s]     cmake_minimum_required(VERSION 3.16)
+[1.344s] 
+[1.344s]   should be added at the top of the file.  The version specified may be lower
+[1.344s]   if you wish to support older CMake versions for this project.  For more
+[1.344s]   information run "cmake --help-policy CMP0000".
+[1.344s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.344s] 
+[1.344s] -- Configuring incomplete, errors occurred!
+[1.344s] See also "/home/taaniel/weld_ws/build/moveit_cpp/CMakeFiles/CMakeOutput.log".
+[1.348s] Invoked command in '/home/taaniel/weld_ws/build/moveit_cpp' returned '1': /usr/bin/cmake /home/taaniel/weld_ws/src/moveit_cpp -DCMAKE_INSTALL_PREFIX=/home/taaniel/weld_ws/install/moveit_cpp

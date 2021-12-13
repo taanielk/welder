@@ -1,0 +1,26 @@
+[0.053s] Invoking command in '/home/taaniel/weld_ws/build/ur5_welder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4
+[0.159s] [35m[1mScanning dependencies of target test_node[0m
+[0.308s] [ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/moveit_testing.cpp.o[0m
+[12.787s] [100%] [32m[1mLinking CXX executable test_node[0m
+[13.430s] [100%] Built target test_node
+[13.453s] Invoked command in '/home/taaniel/weld_ws/build/ur5_welder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4
+[13.527s] Invoking command in '/home/taaniel/weld_ws/build/ur5_welder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/taaniel/weld_ws/build/ur5_welder
+[13.549s] -- Install configuration: ""
+[13.550s] -- Installing: /home/taaniel/weld_ws/install/ur5_welder/lib/ur5_welder/test_node
+[13.552s] -- Set runtime path of "/home/taaniel/weld_ws/install/ur5_welder/lib/ur5_welder/test_node" to ""
+[13.552s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/package_run_dependencies/ur5_welder
+[13.552s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/parent_prefix_path/ur5_welder
+[13.552s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/ament_prefix_path.sh
+[13.552s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/ament_prefix_path.dsv
+[13.553s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/path.sh
+[13.553s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/path.dsv
+[13.553s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.bash
+[13.554s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.sh
+[13.554s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.zsh
+[13.555s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.dsv
+[13.555s] -- Installing: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/package.dsv
+[13.555s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/packages/ur5_welder
+[13.556s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/cmake/ur5_welderConfig.cmake
+[13.567s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/cmake/ur5_welderConfig-version.cmake
+[13.568s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/package.xml
+[13.568s] Invoked command in '/home/taaniel/weld_ws/build/ur5_welder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/taaniel/weld_ws/build/ur5_welder

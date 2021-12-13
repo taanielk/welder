@@ -1,0 +1,7 @@
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group_ptr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   51 |   auto [01;35m[Kjoint_model_group_ptr[m[K = robot_model_ptr->getJointModelGroup(PLANNING_GROUP);
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:53:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktext_pose[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   53 |   Eigen::Isometry3d [01;35m[Ktext_pose[m[K = Eigen::Isometry3d::Identity();
+      |                     [01;35m[K^~~~~~~~~[m[K

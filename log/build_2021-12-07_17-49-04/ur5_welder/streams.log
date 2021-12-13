@@ -1,0 +1,30 @@
+[0.053s] Invoking command in '/home/taaniel/weld_ws/build/ur5_welder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4
+[0.164s] [35m[1mScanning dependencies of target test_node[0m
+[0.300s] [ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/moveit_testing.cpp.o[0m
+[8.085s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.086s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group_ptr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.086s]    51 |   auto [01;35m[Kjoint_model_group_ptr[m[K = robot_model_ptr->getJointModelGroup(PLANNING_GROUP);
+[8.086s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.240s] [100%] [32m[1mLinking CXX executable test_node[0m
+[13.896s] [100%] Built target test_node
+[13.916s] Invoked command in '/home/taaniel/weld_ws/build/ur5_welder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4
+[13.978s] Invoking command in '/home/taaniel/weld_ws/build/ur5_welder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/taaniel/weld_ws/build/ur5_welder
+[13.997s] -- Install configuration: ""
+[13.997s] -- Installing: /home/taaniel/weld_ws/install/ur5_welder/lib/ur5_welder/test_node
+[13.999s] -- Set runtime path of "/home/taaniel/weld_ws/install/ur5_welder/lib/ur5_welder/test_node" to ""
+[13.999s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/package_run_dependencies/ur5_welder
+[13.999s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/parent_prefix_path/ur5_welder
+[14.000s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/ament_prefix_path.sh
+[14.000s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/ament_prefix_path.dsv
+[14.000s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/path.sh
+[14.000s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/path.dsv
+[14.000s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.bash
+[14.001s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.sh
+[14.001s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.zsh
+[14.001s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.dsv
+[14.001s] -- Installing: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/package.dsv
+[14.003s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/packages/ur5_welder
+[14.004s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/cmake/ur5_welderConfig.cmake
+[14.004s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/cmake/ur5_welderConfig-version.cmake
+[14.004s] -- Up-to-date: /home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/package.xml
+[14.015s] Invoked command in '/home/taaniel/weld_ws/build/ur5_welder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/taaniel/weld_ws/build/ur5_welder

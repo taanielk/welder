@@ -1,0 +1,16 @@
+/home/taaniel/weld_ws/install/ur5_welder/lib/ur5_welder/test_node
+/home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/package_run_dependencies/ur5_welder
+/home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/parent_prefix_path/ur5_welder
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/ament_prefix_path.sh
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/ament_prefix_path.dsv
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/path.sh
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/environment/path.dsv
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.bash
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.sh
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.zsh
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/local_setup.dsv
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/package.dsv
+/home/taaniel/weld_ws/install/ur5_welder/share/ament_index/resource_index/packages/ur5_welder
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/cmake/ur5_welderConfig.cmake
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/cmake/ur5_welderConfig-version.cmake
+/home/taaniel/weld_ws/install/ur5_welder/share/ur5_welder/package.xml

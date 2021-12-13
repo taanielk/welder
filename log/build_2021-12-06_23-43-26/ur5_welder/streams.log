@@ -1,0 +1,21 @@
+[0.052s] Invoking command in '/home/taaniel/weld_ws/build/ur5_welder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4
+[0.161s] [35m[1mScanning dependencies of target test_node[0m
+[0.286s] [ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/moveit_testing.cpp.o[0m
+[8.108s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[8.108s]    51 |   [01;31m[K{[m[K
+[8.109s]       |   [01;31m[K^[m[K
+[8.126s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.126s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:94:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[8.126s]    94 |   MoveItCppDemo demo([01;31m[Knode[m[K);
+[8.126s]       |                      [01;31m[K^~~~[m[K
+[8.128s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In lambda function:
+[8.128s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:99:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MoveItCppDemo::run()[m[K’ is private within this context
+[8.128s]    99 |     demo.run([01;31m[K)[m[K;
+[8.128s]       |              [01;31m[K^[m[K
+[8.128s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:54:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[8.128s]    54 |   void [01;36m[Krun[m[K()
+[8.128s]       |        [01;36m[K^~~[m[K
+[12.772s] make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/moveit_testing.cpp.o] Error 1
+[12.772s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/test_node.dir/all] Error 2
+[12.773s] make: *** [Makefile:141: all] Error 2
+[12.777s] Invoked command in '/home/taaniel/weld_ws/build/ur5_welder' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4

@@ -1,0 +1,86 @@
+[0.047s] Invoking command in '/home/taaniel/weld_ws/build/ur5_welder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4
+[0.167s] [35m[1mScanning dependencies of target test_node[0m
+[0.304s] [ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/moveit_testing.cpp.o[0m
+[8.144s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.144s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group_ptr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.144s]    51 |   auto [01;35m[Kjoint_model_group_ptr[m[K = robot_model_ptr->getJointModelGroup(PLANNING_GROUP);
+[8.145s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.436s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[10.436s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[10.436s]                  from [01m[K/usr/include/c++/9/memory:63[m[K,
+[10.436s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[10.436s]                  from [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:1[m[K:
+[10.437s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = planning_scene_monitor::PlanningSceneMonitor; _Args = {const char (&)[18]}; _Tp = planning_scene_monitor::PlanningSceneMonitor][m[K’:
+[10.437s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:482:2:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = planning_scene_monitor::PlanningSceneMonitor; _Args = {const char (&)[18]}; _Tp = planning_scene_monitor::PlanningSceneMonitor; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<planning_scene_monitor::PlanningSceneMonitor>][m[K’
+[10.437s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[18]}; _Tp = planning_scene_monitor::PlanningSceneMonitor; _Alloc = std::allocator<planning_scene_monitor::PlanningSceneMonitor>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[10.437s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = planning_scene_monitor::PlanningSceneMonitor; _Alloc = std::allocator<planning_scene_monitor::PlanningSceneMonitor>; _Args = {const char (&)[18]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[10.437s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<planning_scene_monitor::PlanningSceneMonitor>; _Args = {const char (&)[18]}; _Tp = planning_scene_monitor::PlanningSceneMonitor; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[10.437s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<planning_scene_monitor::PlanningSceneMonitor>; _Args = {const char (&)[18]}; _Tp = planning_scene_monitor::PlanningSceneMonitor][m[K’
+[10.438s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = planning_scene_monitor::PlanningSceneMonitor; _Alloc = std::allocator<planning_scene_monitor::PlanningSceneMonitor>; _Args = {const char (&)[18]}][m[K’
+[10.438s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = planning_scene_monitor::PlanningSceneMonitor; _Args = {const char (&)[18]}][m[K’
+[10.438s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:45:105:[m[K   required from here
+[10.438s] [01m[K/usr/include/c++/9/ext/new_allocator.h:145:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const char [18])[m[K’
+[10.438s]   145 |  noexcept(noexcept([01;31m[K::new((void *)__p)[m[K
+[10.438s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[10.439s]   146 | [01;31m[K       _Up(std::forward<_Args>(__args)...)[m[K))
+[10.439s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.439s] In file included from [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/moveit_cpp/moveit_cpp.h:43[m[K,
+[10.439s]                  from [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:4[m[K:
+[10.439s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const SharedPtr&, const PlanningScenePtr&, const RobotModelLoaderPtr&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)[m[K’
+[10.440s]   145 |   [01;36m[KPlanningSceneMonitor[m[K(const rclcpp::Node::SharedPtr& node, const planning_scene::PlanningScenePtr& scene,
+[10.440s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.441s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[10.441s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const SharedPtr&, const PlanningScenePtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)[m[K’
+[10.441s]   134 |   [01;36m[KPlanningSceneMonitor[m[K(const rclcpp::Node::SharedPtr& node, const planning_scene::PlanningScenePtr& scene,
+[10.442s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.442s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[10.442s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:124:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const SharedPtr&, const RobotModelLoaderPtr&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)[m[K’
+[10.443s]   124 |   [01;36m[KPlanningSceneMonitor[m[K(const rclcpp::Node::SharedPtr& node, const robot_model_loader::RobotModelLoaderPtr& rml,
+[10.443s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.443s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:124:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[10.443s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:115:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)[m[K’
+[10.444s]   115 |   [01;36m[KPlanningSceneMonitor[m[K(const rclcpp::Node::SharedPtr& node, const std::string& robot_description,
+[10.444s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.444s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:115:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[10.444s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[10.444s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[10.445s]                  from [01m[K/usr/include/c++/9/memory:63[m[K,
+[10.445s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[10.445s]                  from [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:1[m[K:
+[10.446s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = moveit_cpp::PlanningComponent; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}; _Tp = moveit_cpp::PlanningComponent][m[K’:
+[10.446s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:482:2:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = moveit_cpp::PlanningComponent; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}; _Tp = moveit_cpp::PlanningComponent; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<moveit_cpp::PlanningComponent>][m[K’
+[10.447s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}; _Tp = moveit_cpp::PlanningComponent; _Alloc = std::allocator<moveit_cpp::PlanningComponent>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[10.447s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = moveit_cpp::PlanningComponent; _Alloc = std::allocator<moveit_cpp::PlanningComponent>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[10.448s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit_cpp::PlanningComponent>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}; _Tp = moveit_cpp::PlanningComponent; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[10.448s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit_cpp::PlanningComponent>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}; _Tp = moveit_cpp::PlanningComponent][m[K’
+[10.448s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = moveit_cpp::PlanningComponent; _Alloc = std::allocator<moveit_cpp::PlanningComponent>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}][m[K’
+[10.449s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = moveit_cpp::PlanningComponent; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&}][m[K’
+[10.449s] [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:48:108:[m[K   required from here
+[10.449s] [01m[K/usr/include/c++/9/ext/new_allocator.h:145:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_cpp::PlanningComponent::PlanningComponent(const std::__cxx11::basic_string<char>&, std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>&)[m[K’
+[10.449s]   145 |  noexcept(noexcept([01;31m[K::new((void *)__p)[m[K
+[10.449s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[10.450s]   146 | [01;31m[K       _Up(std::forward<_Args>(__args)...)[m[K))
+[10.450s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.450s] In file included from [01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:5[m[K:
+[10.450s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h:137:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_cpp::PlanningComponent::PlanningComponent(moveit_cpp::PlanningComponent&&)[m[K’
+[10.451s]   137 |   [01;36m[KPlanningComponent[m[K(PlanningComponent&& other) = default;
+[10.451s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[10.451s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h:137:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[10.451s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h:127:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_cpp::PlanningComponent::PlanningComponent(const string&, const MoveItCppPtr&)[m[K’
+[10.451s]   127 |   [01;36m[KPlanningComponent[m[K(const std::string& group_name, const MoveItCppPtr& moveit_cpp);
+[10.452s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[10.452s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h:127:72:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>[m[K’ to ‘[01m[Kconst MoveItCppPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<moveit_cpp::MoveItCpp>&[m[K’}
+[10.452s]   127 | anningComponent(const std::string& group_name, [01;36m[Kconst MoveItCppPtr& moveit_cpp[m[K);
+[10.452s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[10.453s] 
+[10.453s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h:126:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_cpp::PlanningComponent::PlanningComponent(const string&, const SharedPtr&)[m[K’
+[10.453s]   126 |   [01;36m[KPlanningComponent[m[K(const std::string& group_name, const rclcpp::Node::SharedPtr& node);
+[10.453s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[10.453s] [01m[K/home/taaniel/workspace/ros_ur_driver/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h:126:83:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::shared_ptr<planning_scene_monitor::PlanningSceneMonitor>[m[K’ to ‘[01m[Kconst SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Node>&[m[K’}
+[10.454s]   126 | onst std::string& group_name, [01;36m[Kconst rclcpp::Node::SharedPtr& node[m[K);
+[10.454s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.454s] 
+[12.738s] make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/moveit_testing.cpp.o] Error 1
+[12.739s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/test_node.dir/all] Error 2
+[12.739s] make: *** [Makefile:141: all] Error 2
+[12.741s] Invoked command in '/home/taaniel/weld_ws/build/ur5_welder' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taaniel/workspace/ros_ur_driver/install/ros2controlcli:/home/taaniel/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/taaniel/weld_ws/build/ur5_welder -- -j4 -l4

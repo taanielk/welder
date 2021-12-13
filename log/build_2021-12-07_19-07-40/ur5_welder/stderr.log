@@ -1,0 +1,4 @@
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/taaniel/weld_ws/src/ur5_welder/src/moveit_testing.cpp:41:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   41 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group.getCurrentState()->getJointModelGroup(PLANNING_GROUP);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K

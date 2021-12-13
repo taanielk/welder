@@ -1,0 +1,2 @@
+Invoking command in '/home/taaniel/weld_ws/build/moveit_cpp': /usr/bin/cmake /home/taaniel/weld_ws/src/moveit_cpp -DCMAKE_INSTALL_PREFIX=/home/taaniel/weld_ws/install/moveit_cpp
+Invoked command in '/home/taaniel/weld_ws/build/moveit_cpp' returned '1': /usr/bin/cmake /home/taaniel/weld_ws/src/moveit_cpp -DCMAKE_INSTALL_PREFIX=/home/taaniel/weld_ws/install/moveit_cpp
